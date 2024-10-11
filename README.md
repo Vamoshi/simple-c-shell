@@ -1,4 +1,3 @@
-
 # Simple Shell Program in C
 
 This is a simple shell program implemented in C. The program reads user input, tokenizes the command, and uses `fork()` and `execvp()` system calls to execute the command. The current time is displayed before each command prompt.
@@ -46,9 +45,10 @@ gcc --version
 
 #### On Windows:
 
-To install GCC on Windows, you can use [MinGW](http://www.mingw.org/) (Minimalist GNU for Windows) or [Cygwin](https://www.cygwin.com/). 
+To install GCC on Windows, you can use [MinGW](http://www.mingw.org/) (Minimalist GNU for Windows) or [Cygwin](https://www.cygwin.com/).
 
 **MinGW Installation Steps**:
+
 1. Download the MinGW installer from the [MinGW website](http://www.mingw.org/).
 2. Run the installer and select the `gcc` package.
 3. Follow the prompts to complete the installation.
@@ -63,6 +63,7 @@ gcc --version
 ```
 
 **Cygwin Installation**:
+
 1. Download and run the Cygwin installer from [Cygwin’s official site](https://www.cygwin.com/).
 2. During installation, select the `gcc-core` package.
 3. Follow the steps to complete the installation.
